@@ -11,18 +11,18 @@ public class EjemploAutomovil {
 
         ferrari.setFabricante("Ferrari");
         ferrari.setModelo("F-129");
-        ferrari.setColor("Rojo");
+        ferrari.setColor(Color.ROJO);
         ferrari.setCilindrada(12000.63);
 
         System.out.println(ferrari.detalle());
         System.out.println(ferrari.acelerarFrenar(9500));
         System.out.println(ferrari.calcularConsumo(130, 0.5f));
 
-        Automovil mazda = new Automovil("Mazda", "3","Negro",3600.45, 23);
-        Automovil mazdaR = new Automovil("Mazda", "3","Negro",3600.45, 23);
-        System.out.println(mazda.detalle());
+        Automovil mazda = new Automovil("Mazda", "3",Color.NEGRO,3600.45, 23);
+        Automovil mazdaR = new Automovil("Mazda", "3",Color.NEGRO,3600.45, 23);
         System.out.println(mazda.equals(mazdaR));
         System.out.println(mazda.equals(auto));
+        System.out.println(mazda);
 
 
 
