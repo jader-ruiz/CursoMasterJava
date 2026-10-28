@@ -10,6 +10,15 @@ public class EjemploAutomovilStatic {
         Automovil.setCapacidadStatic(50);
         System.out.println(Automovil.calcularConsumoStatic(300,0.53f ));
 
+        mazda.setTipo(TipoAutomovil.SEDAN);
+        mazda.setMotor(new Motor());
+        bmw.setTipo(TipoAutomovil.COUPE);
+        bmw.setMotor(new Motor());
+        toyota.setTipo(TipoAutomovil.STATION_WAGON);
+        toyota.setMotor(new Motor());
+        nissan.setTipo(TipoAutomovil.PICKUP);
+        nissan.setMotor(new Motor());
+
         System.out.println(bmw.detalle());
         System.out.println(toyota.detalle());
         System.out.println(mazda.detalle());
