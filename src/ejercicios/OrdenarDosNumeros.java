@@ -1,3 +1,5 @@
+package ejercicios;
+
 import java.util.Scanner;
 // 19/10/2026; Seccion 4 Operadores
 public class OrdenarDosNumeros {

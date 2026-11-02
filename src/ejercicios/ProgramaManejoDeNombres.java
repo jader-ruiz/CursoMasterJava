@@ -1,3 +1,5 @@
+package ejercicios;
+
 import java.util.Scanner;
 // 18/10/2026; Seccion 3: String
 public class ProgramaManejoDeNombres {

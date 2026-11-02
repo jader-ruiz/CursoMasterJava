@@ -1,3 +1,5 @@
+package ejercicios;
+
 import java.util.Scanner;
 // 21/10/2026; Seccion 5 Flujo Control
 public class MultiplicacionDosNumeros {

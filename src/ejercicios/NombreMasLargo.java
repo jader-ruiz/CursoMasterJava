@@ -1,3 +1,5 @@
+package ejercicios;
+
 import javax.swing.*;
 // 19/10/2026; Seccion 4 Operadores
 public class NombreMasLargo {
