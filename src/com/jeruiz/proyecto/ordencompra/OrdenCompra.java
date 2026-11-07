@@ -1,4 +1,4 @@
-package proyecto.ordencompra;
+package com.jeruiz.proyecto.ordencompra;
 
 import java.util.Date;
 

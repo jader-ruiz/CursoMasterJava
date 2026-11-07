@@ -1,4 +1,4 @@
-package proyecto.ordencompra;
+package com.jeruiz.proyecto.ordencompra;
 
 public class Cliente {
     private String nombre;
