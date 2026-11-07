@@ -61,4 +61,9 @@ public class Alumno extends Persona{
     public void setNotaHisoria(double notaHisoria) {
         this.notaHisoria = notaHisoria;
     }
+
+    @Override
+    public String saludar(){
+        return super.saludar() + " soy estudiante...";
+    }
 }
