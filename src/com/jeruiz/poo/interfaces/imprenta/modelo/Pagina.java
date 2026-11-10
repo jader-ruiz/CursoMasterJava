@@ -1,0 +1,12 @@
+package com.jeruiz.poo.interfaces.imprenta.modelo;
+
+public class Pagina extends Hoja implements Imprimible{
+    public Pagina(String contenido) {
+        super(contenido);
+    }
+
+    @Override
+    public String imprimir() {
+        return contenido;
+    }
+}
